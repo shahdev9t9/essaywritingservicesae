@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+    /* Styles for large desktops up to 1920px */
+    .container{
+        max-width: 93%;
+    }
+  }
+
+  /* For screens smaller than 1200px */
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 93%;
+    }
+  }
+  
+  /* For screens smaller than 768px (e.g., tablets or mobile) */
+  @media screen and (max-width: 768px) {
+    .container{
+        max-width: 93%;
+    }
+  }
+  
+  /* For screens smaller than 480px (e.g., small mobile devices) */
+  @media screen and (max-width: 480px) {
+    
+  }

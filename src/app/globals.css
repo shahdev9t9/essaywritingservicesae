@@ -1,0 +1,67 @@
+:root{
+  --primaryBg:#0D6EFD;
+  --secondaryBg:#101452;
+  --star:#FCE340;
+}
+.Navigation a.nav-link.ordernow{
+  background: var(--primaryBg);
+}
+.Navigation a.nav-link{
+  color: #fff;
+}
+.Sliders{
+  background: url("/images/sliderBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+.Headerform{
+  border: 4px solid #fff;
+  background: var(--secondaryBg);
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.Headerform label{
+  color: #fff;
+  padding-bottom: 4px;
+}
+.Headerform .form-group{
+  margin: 4px 0;
+}
+.Sliders h1{
+  font-size:4.4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.middleImg{
+  position: absolute;
+  bottom: 0;
+  max-width:450px;
+  margin-left: -8rem;
+}
+.workdelivInner{
+  background: var(--secondaryBg);
+  margin-bottom: 20px;
+}
+.Aboutus{
+  background: var(--secondaryBg);
+}
+.socialBg{
+  background: #fff;
+  height: 100%;
+}
+.serviceItems{
+  background: #fff;
+  margin-bottom: 10px;
+  color: #000 !important;
+  border: 3px solid var(--secondaryBg);
+}
+.serviceItems.active{
+  background: var(--secondaryBg);
+  color: #fff !important;
+}
+.Homepricing{
+  background: var(--secondaryBg);
+}
