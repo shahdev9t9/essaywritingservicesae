@@ -1,5 +1,9 @@
 import Aboutus from '@/components/Aboutus';
+import Contentsec from '@/components/Contentsec';
 import Homepricing from '@/components/Homepricing';
+import Innovations from '@/components/Innovations';
+import Ourwriters from '@/components/Ourwriters';
+import Process from '@/components/Process';
 import Services from '@/components/Services';
 import Sliders from '@/components/Sliders';
 import Workdelivered from '@/components/Workdelivered';
@@ -18,6 +22,10 @@ const page = () => {
       <Aboutus />
       <Services />
       <Homepricing />
+      <Contentsec />
+      <Innovations />
+      <Process />
+      <Ourwriters />
     </>
   )
 }

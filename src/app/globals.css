@@ -65,3 +65,108 @@
 .Homepricing{
   background: var(--secondaryBg);
 }
+.pricinglist{
+  background: #Fff;
+  padding: 2rem 2rem;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+.Homepricing .nav-pills .nav-link {
+  padding: 11px 6rem;
+  background: var(--primaryBg);
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.Homepricing .nav-pills .nav-link.active{
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+}
+.Contentsec ul{
+  margin: 30px 0;
+}
+.Contentsec ul li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.Contentsec ul li span{
+  background: var(--secondaryBg);
+  width: 70%;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+.quickAct a{
+  background: #Fff;
+  border: 1px solid var(--primaryBg);
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+.quickAct a.blue{
+  background: var(--primaryBg);
+  color: #fff;
+}
+.Innovations{
+  background: var(--secondaryBg);
+}
+.innovationItems{
+  border-bottom: 4px solid #fff;
+  padding-bottom: 15px;
+}
+.innovationItems p{
+  padding: 5px 0 !important;
+}
+.awardsItems a{
+  padding: 10px 40px;
+  background: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+.processshapecpount{
+  background: var(--secondaryBg);
+  width: 123px;
+  height: 123px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 800;
+}
+.processshapecpount.Right{
+  background: var(--secondaryBg);
+  width: 123px;
+  height: 123px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 800;
+}
+.processList {
+  width: 100%;
+  max-width: 81%;
+  margin: auto;
+}
+.processItems{
+  flex: 1;
+}
