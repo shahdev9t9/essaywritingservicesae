@@ -170,3 +170,6 @@
 .processItems{
   flex: 1;
 }
+.Ourwriters{
+  background: var(--secondaryBg);
+}
