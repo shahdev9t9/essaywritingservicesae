@@ -172,4 +172,27 @@
 }
 .Ourwriters{
   background: var(--secondaryBg);
+  position: relative;
+  z-index: 0;
+  padding-bottom: 8rem !important;
+}
+.writerInfo{
+  padding-left: 6rem;
+}
+.Ourwriters::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 90%;
+  height: 200px;
+  background: #fff;
+  bottom: 6rem;
+  z-index: -1;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.experinceWrap{
+  padding-top: 6.4rem;
+  width: 100%;
+  max-width: 65%;
 }

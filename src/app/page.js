@@ -1,4 +1,5 @@
 import Aboutus from '@/components/Aboutus';
+import Awards from '@/components/Awards';
 import Contentsec from '@/components/Contentsec';
 import Homepricing from '@/components/Homepricing';
 import Innovations from '@/components/Innovations';
@@ -26,6 +27,7 @@ const page = () => {
       <Innovations />
       <Process />
       <Ourwriters />
+      <Awards />
     </>
   )
 }
